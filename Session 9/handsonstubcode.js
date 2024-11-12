@@ -7,3 +7,8 @@ var cities = ['Hamilton', 'Toronto', 'Vancouver', 'London', 'Brussels', 'Sydney'
 		Remove furthest city from the array
 		Print the array
 */
+cities.remove(4);
+cities.push('Tokyo'); 
+cities.unshift('Boston');
+cities.splice(5);
+console.log(cities);

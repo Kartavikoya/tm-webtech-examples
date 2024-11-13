@@ -9,6 +9,13 @@
         <p id="intropara" style="color: brown;">Please register for more</p>
         <button type="button" id="btn">SUBMIT</button>
     </div>
-   <script></script> 
+   <script>
+       document.getElementById('btn').style.cursor = 'pointer';
+        document.getElementById('btn').onclick = function() { 
+            document.getElementById('container').style.backgroundColor = 'grey';
+            document.getElementById('intropara').style.color = 'white';
+            document.getElementById('intropara').innerText = 'Registered';
+        }
+   </script> 
 </body>
 </html>
